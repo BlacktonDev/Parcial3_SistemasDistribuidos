@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button irSiguienteButton = findViewById(R.id.IniciarButton);
+        Button IniciarButton = findViewById(R.id.IniciarButton);
         Button salirButton = findViewById(R.id.salirButton);
 
-        irSiguienteButton.setOnClickListener(new View.OnClickListener() {
+        IniciarButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, restaurantesActivity.class);
