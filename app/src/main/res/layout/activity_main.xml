@@ -10,7 +10,7 @@
         android:id="@+id/inicioTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inicio"
+        android:text="@string/inicio"
         android:textSize="24sp"
         android:layout_centerHorizontal="true"/>
 
