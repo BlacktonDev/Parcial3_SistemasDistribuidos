@@ -12,7 +12,7 @@ public class restaurantesActivity extends AppCompatActivity {
 @Override
     protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.activity_restaurantes);
 
     Button DonCheloBtn = findViewById(R.id.DonCheloBtn);
     Button GringaBtn = findViewById(R.id.GringaBtn);
